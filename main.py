@@ -57,7 +57,7 @@ def menu():
 
                 if validar_entrada(valor, campo):
                     if campo == "senha_forte":
-                        usuario[campo] = "********"  # Armazenar ocultado (ou criptografado futuramente)
+                        usuario[campo] = "********"  # Armazenar senha ocultada
                     else:
                         usuario[campo] = valor
                     break
